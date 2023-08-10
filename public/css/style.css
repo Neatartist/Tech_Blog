@@ -1,0 +1,52 @@
+:root {
+  --primary-color: rgb(66, 110, 66);
+  --secondary-color: rgb(191, 168, 138);
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body,
+html,
+textarea,
+input {
+  height: 100%;
+  padding: 0%;
+  margin: 0%;
+  font-family: "Roboto", sans-serif;
+  color: black;
+}
+
+a {
+  text-decoration: none;
+  color: var(--primary-color);
+  font-weight: bold;
+  margin: 20px;
+}
+
+.homepage {
+  text-decoration: none;
+  color: var(--primary-color);
+  margin: 20px;
+  font-weight: bold;
+}
+
+a:hover {
+  color: var(--secondary-color);
+}
+
+.blog-title {
+  color: var(--secondary-color);
+  font-size: 20px;
+  margin: 20px;
+  padding: 8px;
+}
+
+.wrapper {
+  border-bottom: 3px solid black;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0%;
+}
