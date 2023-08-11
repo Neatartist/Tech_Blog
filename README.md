@@ -8,7 +8,7 @@ This is a CMS-style blog site similar to a Wordpress site, where developers can 
 * [Usage](#usage)
 * [License](#license)
 * [user-Story](#user-story)
-* [Acceptance-Criteria](#Acceptance-criteria)
+* [Acceptance-Criteria](#Acceptance-Criteria)
 * [links](#links)
 * [Screenshot](#screenshot)
 
