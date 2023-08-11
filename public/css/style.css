@@ -50,3 +50,131 @@ a:hover {
   align-items: center;
   padding: 0%;
 }
+
+.homepage {
+  text-decoration: none;
+  color: var(--primary-color);
+  margin: 20px;
+  font-weight: bold;
+}
+
+.create-btn {
+  color: white;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.create-btn:hover {
+  color: var(--secondary-color);
+}
+
+button {
+  background-color: var(--secondary-color);
+  border: 0;
+  padding: 0;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+  border: 5px;
+  font-family: sans-serif;
+}
+
+textarea {
+  min-width: 30%;
+  min-height: 100px;
+}
+
+textarea, input {
+  padding: 5px;
+  border-radius: 5px;
+  border: 1px var(--secondary-color);
+}
+
+textarea:focus {
+  outline: none;
+  border: 2px var(--secondary-color);
+}
+
+
+header {
+  border-bottom: 1px solid black;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0;
+}
+
+main{ 
+  flex: 1;
+  padding: 2% 3%;
+}
+
+header h1 {
+  font-size: 1em;
+}
+
+.no-button {
+  background: none;
+  border: none;
+  padding: 0%;
+  margin-left: 17%;
+  text-decoration: none;
+  font-size: 100%;
+  font-weight: bold;
+}
+
+.no-button:hover {
+  color: var(--secondary-color);
+}
+
+.delete-post-btn {
+  background-color: orangered;  
+
+}
+
+.delete-post-btn:hover {
+  color: var(--primary-color);
+}
+
+.post .title span {
+  border: 1px solid black;
+  padding: 2%;
+  margin: 2%;
+  border-radius: 5px;
+}
+
+.comment-form {
+  margin: 5%;
+}
+
+
+.edit-link {
+  display: block;
+  margin: 5%;
+}
+
+.comment {
+  padding: 2%;
+  margin: 2%;
+}
+
+.comment:nth-child(even) {
+  background-color: var(--secondary-color);
+}
+
+.comment .meta {
+  font-size: 95%;
+  margin-bottom: 1%;
+}
+
+.new-post-form {
+  margin-bottom: 5%;
+}
+
+footer {
+  border-top: 2px solid black ;
+  display: flex;
+  justify-content: center;
+  padding: 1%;
+  font-size: 100%;
+}
