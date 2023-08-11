@@ -7,8 +7,8 @@ This is a CMS-style blog site similar to a Wordpress site, where developers can 
 * [Installation](#installation)
 * [Usage](#usage)
 * [License](#license)
-* [user-Story](#story)
-* [Acceptance-Criteria](#criteria)
+* [user-Story](#user-story)
+* [Acceptance-Criteria](#Acceptance-criteria)
 * [links](#links)
 * [Screenshot](#screenshot)
 
@@ -29,14 +29,14 @@ npm start
 ## License
 This project is licensed under the MIT license.
 
-## User Story
+## User-Story
 ```md
 AS A developer who writes about tech
 I WANT a CMS-style blog site
 SO THAT I can publish articles, blog posts, and my thoughts and opinions
 ```
 
-## Acceptance Criteria
+## Acceptance-Criteria
 ```md
 GIVEN a CMS-style blog site
 WHEN I visit the site for the first time
@@ -74,8 +74,8 @@ THEN I am able to view posts and comments but I am prompted to log in again befo
 ```
 
 ## Links
-* [Github](
+* [Github](https://github.com/Neatartist/Tech_Blog.git)
 
 ## Screenshot
-![Screenshot](
+
 
