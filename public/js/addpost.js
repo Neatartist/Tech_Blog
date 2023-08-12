@@ -1,4 +1,4 @@
-async function newFormHandler {
+async function newFormHandler (event) {
   event.preventDefault();
   const title = document.querySelector('input[name="post-title"]').value;
   const post_url = document.querySelector('input[name="post-url"]').value;
@@ -9,7 +9,7 @@ async function newFormHandler {
       post_url
     }),
     headers: {
-      'Content-Type': 'application/json'
+      'Content-Type': 'application/json'                                        
     }
   });
   if (response.ok) {
